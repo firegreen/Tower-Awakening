@@ -1,0 +1,150 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+
+\usepackage{graphics}
+\usepackage{listings}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\newcolumntype{M}[1]{>{\raggedright}m{#1}}
+
+
+% Thème
+\usetheme[hideothersubsections, right, width=2.22cm]{Goettingen}
+
+\title{NAS Parallel Benchmarks - Kernels\\(EP, MG, CG, FT, IS)}
+\author{Pierre \textsc{Dupond}}
+\institute{Master 2 Recherche, Nouveaux Systèmes Informatiques,\\Orsay, 2011-2012}
+%\date{mai 2012}
+
+% textsc + textbf
+%\renewcommand\textsc[1]{{\fontfamily{ptm}\fontshape{sc}\fontseries{bx}\selectfont #1}}
+
+% textsc
+\usepackage{lmodern}
+
+\addtobeamertemplate{footline}{\hfill\insertframenumber/\inserttotalframenumber\hspace{0.5em}\null}
+
+\setcounter{tocdepth}{2}
+
+\begin{document}
+
+	% Configuration du package listing
+	\lstset{
+		breaklines          = true
+		, language          = C++
+		%, numbers           = right
+		, tabsize           = 4
+		, basicstyle        = \footnotesize\ttfamily
+		, keywordstyle      = \color{blue}
+		, commentstyle      = \color{green}
+		, stringstyle       = \color{red}
+		, identifierstyle   = \ttfamily
+		, columns           = flexible
+	}
+
+	\begin{frame}
+		\maketitle
+	\end{frame}
+
+
+	\begin{frame}
+		~ \\
+		\textsc{Table des matières} \\ ~ \\
+		\tableofcontents
+	\end{frame}
+
+
+	\section{Introduction}
+
+		\begin{frame}
+			\large{\textsc{\insertsectionhead}}
+			\begin{itemize}
+				\item[]
+				\item TODO
+				\item[]
+			\end{itemize}
+		\end{frame}
+
+
+	\section{Kernels}
+
+		\subsection{EP - Embarrassingly Parallel}
+
+			\begin{frame}
+				\large{\textsc{\insertsubsectionhead}}
+				\begin{itemize}
+					\item[]
+					\item TODO
+					\item[]
+				\end{itemize}
+			\end{frame}
+
+		\subsection{MG - MultiGrid}
+
+			\begin{frame}
+				\large{\textsc{\insertsubsectionhead}}
+				\begin{itemize}
+					\item[]
+					\item TODO
+					\item[]
+				\end{itemize}
+			\end{frame}
+
+		\subsection{CG - Conjugate Gradient}
+
+			\begin{frame}
+				\large{\textsc{\insertsubsectionhead}}
+				\begin{itemize}
+					\item[]
+					\item TODO
+					\item[]
+				\end{itemize}
+			\end{frame}
+
+		\subsection{FT - Fast Fourier Transform}
+
+			\begin{frame}
+				\large{\textsc{\insertsubsectionhead}}
+				\begin{itemize}
+					\item[]
+					\item TODO
+					\item[]
+				\end{itemize}
+			\end{frame}
+
+		\subsection{IS - Integer Sort}
+
+			\begin{frame}
+				\large{\textsc{\insertsubsectionhead}}
+				\begin{itemize}
+					\item[]
+					\item TODO
+					\item[]
+				\end{itemize}
+			\end{frame}
+
+
+	\section{Suite}
+
+		\begin{frame}
+			\large{\textsc{\insertsectionhead}}
+			\begin{itemize}
+				\item[]
+				\item TODO
+				\item[]
+			\end{itemize}
+		\end{frame}
+
+
+	\section*{~}
+
+		\begin{frame}
+			\maketitle
+		\end{frame}
+
+
+\end{document}

@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Kernels}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{EP - Embarrassingly Parallel}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{MG - MultiGrid}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{CG - Conjugate Gradient}{6}{0}{2}
+\beamer@subsectionintoc {2}{4}{FT - Fast Fourier Transform}{7}{0}{2}
+\beamer@subsectionintoc {2}{5}{IS - Integer Sort}{8}{0}{2}
+\beamer@sectionintoc {3}{Suite}{9}{0}{3}
